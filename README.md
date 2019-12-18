@@ -1,2 +1,2 @@
 ## binary.io
-[binary.io](https://artem-viktorovich.github.io/binary.io/index.html)
+[binary.io](https://artem-viktorovich.github.io/binary.io/binary/index.html)
