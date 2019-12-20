@@ -6,17 +6,11 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="css/style.css">
-<!-- 	<link rel="stylesheet" href="css/animate.css" /> -->
-<!-- 	<link rel="stylesheet" href="css/custom.css"> -->
-
-	<!-- <meta name="robots" content="noindex, nofollow" /> -->
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 </head>
 <body>
 	<div class="wrapper">
-		<!-- 1-ый блок -->
-		<div class="mainblock">
+		<div class="mainblock" id="home">
 			<div class="mainblock__content">
 				<div class="container">
 					<a href="#" class="mainblock__logo">
@@ -36,21 +30,19 @@
 				<img src="img/BG-Header.png" alt="" />
 			</div>
 		</div>
-		<!-- продолжение вёрстки -->
 		<div class="content">
 			<div class="menu">
 				<nav class="menu__items">
 					<ul class="menu__list">
-						<li><a href="#" class="menu__link menu__link_act">HOME</a></li>
-						<li><a href="#" class="menu__link">ABOUT US</a></li>
-						<li><a href="#" class="menu__link">PORTFOLIO</a></li>
-						<li><a href="#" class="menu__link">CONTACT</a></li>
+						<li><a href="#home" class="menu__link menu__link_act">HOME</a></li>
+						<li><a href="#about" class="menu__link">ABOUT US</a></li>
+						<li><a href="#portfolio" class="menu__link">PORTFOLIO</a></li>
+						<li><a href="#contact" class="menu__link">CONTACT</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
-
-		<div class="about block__back">
+		<div class="about block__back" id="about">
 			<div class="container">
 				<div class="about__body">
 					<div class="about__header header">
@@ -92,8 +84,7 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="portfolio block__back">
+		<div class="portfolio block__back" id="portfolio">
 			<div class="container">
 				<div class="about__header header">
 					<div class="portfolio__title title">PORTFOLIO
@@ -138,7 +129,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- 4-ый блок -->
+
 		<div class="partners">
 			<div class="container">
 				<div class="partners__title">Our partners</div>
@@ -166,8 +157,8 @@
 				</div>
 			</div>
 		</div>
-		<!-- блок форм -->
-		<div class="contacts">
+
+		<div class="contacts" id="contact">
 			<div class="container">
 				<div class="contacts__header header">
 					<div class="contacts__title title">CONTACT
@@ -223,10 +214,10 @@
 			<div class="footer__social">
 				<nav>
 					<ul class="footer__menu">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Facebook</a></li>
-						<li><a href="#">Linkedin</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#home">Home</a></li>
+						<li><a href="https://www.facebook.com" target="_black">Facebook</a></li>
+						<li><a href="https://www.linkedin.com" target="_black">Linkedin</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -237,8 +228,6 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="js/vendors.js"></script>
 <script src="js/main.js"></script>
-<!-- <script src="js/custom.js" ></script> -->
 <script src="js/script.js" ></script>
-
 </body>
 </html>
