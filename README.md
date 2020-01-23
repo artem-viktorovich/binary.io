@@ -2,7 +2,8 @@
 [binary.io](https://artem-viktorovich.github.io/binary.io/binary/index.html)
 
 ## trees
-[binary.io](https://artem-viktorovich.github.io/binary.io/trees/img/1/iskusstvennye_elki.png)
+[binary.io](https://artem-viktorovich.github.io/binary.io/trees/img/1/icon1.png)
 
-[binary.io](https://artem-viktorovich.github.io/binary.io/trees/img/2/1446136616_christmas_3.png)
-[binary.io](https://artem-viktorovich.github.io/binary.io/trees/img/2/elka_pr.png)
+[binary.io](https://artem-viktorovich.github.io/binary.io/trees/img/2/icon2.png)
+
+[binary.io](https://artem-viktorovich.github.io/binary.io/trees/img/3/icon3.png)
